@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Incubator Hub",
+    "role": "mentor",
+    "skills": ["Design", "UI/UX"],
+    "goals": "Help others master product design"
+  },
+  {
+    "id": 2,
+    "name": "Israel",
+    "role": "mentee",
+    "skills": ["Python", "HTML"],
+    "goals": "Learn how to build apps"
+  }
+]
