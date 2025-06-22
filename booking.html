@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book a Session</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Book Session</h2>
+  <form id="booking-form">
+    <label>Mentor ID: <input type="text" id="mentor-id" required /></label><br/>
+    <label>Date & Time: <input type="datetime-local" id="datetime" required /></label><br/>
+    <button type="submit">Book</button>
+  </form>
+  <div id="status"></div>
+  <button onclick="signInWithGoogle()">Sign in with Google</button>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="booking.js"></script>
+</body>
+</html>
